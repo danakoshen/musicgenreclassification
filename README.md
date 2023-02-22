@@ -1,2 +1,7 @@
 # musicgenreclassification
 Music Genre Classification using keras
+
+This was done as a class project for a university course
+In this work the recurrent neural network (RNN) with use of Long Short Term Memory (LSTM) in particular is suggested, since continuous data is used. Python supported library by the name of LibROSA that works with audio data is going to be implemented. The expected accuracy is to be higher than of existing, which in numbers is represented as more than around 70%.
+
+When considered in terms of features music contains a huge amount of data. Therefore algorithms for audio processing usually require a descent amount of memory. For that particular reason deep learning is highly exploited in the field. It allows for a long-term memorization of sequential data, its properties and patterns in different types of music being the most important parts to take care of. RNNs and in particular LSTM show a good performance when applied to described types of datasets. Important information regarding the training data is being stored with unnecessary parts being discarded. Things that are of most use are of top priority. When considering a human brain the same pattern is preferable with memory while being huge enough still requiring a "refreshing" from time to time. This ability to forget is important when designing Artificial Intelligence (AI) systems and LSTM is one which takes this concept into consideration. This type of model is to be implemented in the current work.
